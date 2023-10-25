@@ -1,0 +1,61 @@
+/* Styling across all pages*/
+body {
+	color: #F2055C;
+	text-align: center;
+	background-color: white;
+}
+aside {
+	text-align: left;
+}
+.attribution {
+	color: #E087AC;
+	background-color: white;
+	text-align: center;
+	padding: 5px;
+}
+ul {
+	list-style-type: none;
+	text-align: left;
+	}
+
+/*Heading for Sub-Pages*/
+.pink-dress {
+	color: #F51387;
+	text-align: center;
+}
+header {
+	color: white;
+	background-color: #F2055C;
+	margin: 0;
+	padding: 80px 0;
+}
+
+/* Grid Layout- Homepage*/
+
+/* Grid Layout- Body Content for Sub-Pages*/
+.outfit-specs {
+	display: grid;
+	grid-template-columns: 100px 1fr 2fr 100px;
+	grid-auto-rows: repeat(4, 1fr)
+}
+.subtitle {
+	grid-column-start: 2;
+}
+.content {
+	grid-column-start: 3;
+}
+li {
+	padding: 5px;
+}
+
+img {
+	max-width: 300px;
+}
+/* .closet-graphic {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.outfit {
+	grid-row-start: 1;
+	grid-column-start: 1;
+}*/
