@@ -18,27 +18,32 @@ ul {
 	text-align: left;
 	}
 
-nav ul {
-	list-style-type: none;
-}
-
 /* HOMEPAGE */
 
 /* Homepage Nav Bar Styling */
+#menu-title {
+	font-size: 2em;
+}
+
 #menu-1 {
 	color:#FD0073;
+	text-decoration: none;
 }
 #menu-2 {
 	color:#025939;
+	text-decoration: none;
 }
 #menu-3 {
 	color:#171117;
+	text-decoration: none;
 }
 #menu-4 {
 	color:#FF7ADE;
+	text-decoration: none;
 }
 #menu-5 {
 	color:#9F9E9A;
+	text-decoration: none;
 }
 /* Grid Layout- Homepage*/
 
@@ -66,10 +71,14 @@ nav ul {
 }
 header {
 	color: white;
-	background-color: #F2055C;
-	margin: 0;
+	background-color: #000000;
 	padding: 80px 0;
 }
+
+.pd-head-background {
+	background: url('images/pink-dress-graphic-1.png');
+}
+
 
 /* Grid Layout- Body Content for Sub-Pages*/
 .outfit-specs {
