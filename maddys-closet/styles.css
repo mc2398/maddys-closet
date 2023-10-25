@@ -30,15 +30,13 @@ header {
 	padding: 80px 0;
 }
 
-button {
-	color: white;
-	background-color: #F2055C;
-	padding: 20 px;
-	font-size: 1.5em;
-	border-radius: 10px;
-}
 
 /* Grid Layout- Homepage*/
+
+.About-Message{
+	margin-left: 100px;
+	margin-right: 100px;
+}
 
 /* Grid Layout- Body Content for Sub-Pages*/
 .outfit-specs {
@@ -59,6 +57,20 @@ li {
 img {
 	max-width: 300px;
 }
+
+/* Body Content for Sub-Pages*/
+button {
+	color: white;
+	background-color: #F2055C;
+	padding: 20px;
+	font-size: 1.5em;
+	border-radius: 10px;
+}
+
+button a {
+	color:white;
+}
+
 /* .closet-graphic {
 	display: grid;
 	grid-template-columns: 1fr;
