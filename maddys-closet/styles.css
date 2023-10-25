@@ -30,6 +30,14 @@ header {
 	padding: 80px 0;
 }
 
+button {
+	color: white;
+	background-color: #F2055C;
+	padding: 20 px;
+	font-size: 1.5em;
+	border-radius: 10px;
+}
+
 /* Grid Layout- Homepage*/
 
 /* Grid Layout- Body Content for Sub-Pages*/
