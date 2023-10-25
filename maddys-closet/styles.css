@@ -18,6 +18,47 @@ ul {
 	text-align: left;
 	}
 
+nav ul {
+	list-style-type: none;
+}
+
+/* HOMEPAGE */
+
+/* Homepage Nav Bar Styling */
+#menu-1 {
+	color:#FD0073;
+}
+#menu-2 {
+	color:#025939;
+}
+#menu-3 {
+	color:#171117;
+}
+#menu-4 {
+	color:#FF7ADE;
+}
+#menu-5 {
+	color:#9F9E9A;
+}
+/* Grid Layout- Homepage*/
+
+.About-Message{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+/* .closet-graphic {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.outfit {
+	grid-row-start: 1;
+	grid-column-start: 1;
+}*/
+
+/* SUB PAGES */
+
 /*Heading for Sub-Pages*/
 .pink-dress {
 	color: #F51387;
@@ -28,18 +69,6 @@ header {
 	background-color: #F2055C;
 	margin: 0;
 	padding: 80px 0;
-}
-
-/* Homepage Nav Bar Styling */
-#menu-1 {
-	color:#FD0073;
-}
-
-/* Grid Layout- Homepage*/
-
-.About-Message{
-	margin-left: 100px;
-	margin-right: 100px;
 }
 
 /* Grid Layout- Body Content for Sub-Pages*/
@@ -62,7 +91,7 @@ img {
 	max-width: 300px;
 }
 
-/* Body Content for Sub-Pages*/
+/* Navigation for Sub-Pages*/
 button {
 	color: white;
 	background-color: #F2055C;
@@ -75,11 +104,3 @@ button a {
 	color:white;
 }
 
-/* .closet-graphic {
-	display: grid;
-	grid-template-columns: 1fr;
-}
-.outfit {
-	grid-row-start: 1;
-	grid-column-start: 1;
-}*/
