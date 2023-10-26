@@ -81,6 +81,9 @@ header {
 .ds-head-background {
 	background: url('images/disco-skirt-header-1.svg');
 }
+.gt-head-background {
+	background: url('images/green-top-header-1.svg');
+}
 h1 {
 	background-color: white;
 	margin-right: 40px;
