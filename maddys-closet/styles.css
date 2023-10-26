@@ -91,7 +91,7 @@ h1 {
 	padding: 5px 0;
 	font-family: 'Gorditas', serif;
 }
-#subhead {
+.subhead {
 	font-size: 0.75em;
 }
 #welcome {
@@ -118,7 +118,21 @@ li {
 img {
 	max-width: 300px;
 }
-
+#pd-body-text {
+	color: #FD0073;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
+}
+#gt-body-text {
+	color: #025939;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
+	}
+#ds-body-text {
+	color: silver;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
+}
 /* Navigation for Sub-Pages*/
 button {
 	color: white;
@@ -130,5 +144,12 @@ button {
 
 button a {
 	color:white;
+}
+
+#disco-home-button {
+	background-color: silver;
+}
+#green-home-button {
+	background-color: #94E572;
 }
 
