@@ -6,6 +6,8 @@ body {
 }
 nav {
 	text-align: left;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
 }
 .attribution {
 	color: #E087AC;
@@ -20,9 +22,17 @@ ul {
 
 /* HOMEPAGE */
 
+/* header for the Homepage*/
+#welcome {
+	font-family: 'Moo Lah Lah', serif;
+	font-size: 4em;
+	color: hotpink;
+}
+
 /* Homepage Nav Bar Styling */
 #menu-title {
 	font-size: 2em;
+	color: hotpink;
 }
 
 #menu-1 {
@@ -38,7 +48,7 @@ ul {
 	text-decoration: none;
 }
 #menu-4 {
-	color:#FF7ADE;
+	color:#EB6142;
 	text-decoration: none;
 }
 #menu-5 {
@@ -94,12 +104,10 @@ h1 {
 .subhead {
 	font-size: 0.75em;
 }
-#welcome {
-	font-family: 'Moo Lah Lah', serif;
-	font-size: 4em;
-	color: hotpink;
-}
-/* Grid Layout- Body Content for Sub-Pages*/
+
+
+
+/* Grid Layout- for Sub-Pages*/
 .outfit-specs {
 	display: grid;
 	grid-template-columns: 100px 1fr 2fr 100px;
@@ -118,6 +126,8 @@ li {
 img {
 	max-width: 300px;
 }
+
+/* Text Styling for Body Pages Content */
 #pd-body-text {
 	color: #FD0073;
 	font-family: 'Calistoga', serif;
@@ -133,7 +143,8 @@ img {
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
 }
-/* Navigation for Sub-Pages*/
+
+/* Navigation (Buttons) for Sub-Pages*/
 button {
 	color: white;
 	background-color: #F2055C;
