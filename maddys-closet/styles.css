@@ -78,7 +78,9 @@ header {
 .pd-head-background {
 	background: url('images/pink-dress-heading-1.png');
 }
-
+.ds-head-background {
+	background: url('images/pink-dress-heading-1.png');
+}
 h1 {
 	background-color: white;
 	margin-right: 40px;
