@@ -70,16 +70,30 @@ ul {
 	text-align: center;
 }
 header {
-	color: white;
+	color: black;
 	background-color: #000000;
 	padding: 80px 0;
 }
 
 .pd-head-background {
-	background: url('images/pink-dress-graphic-1.png');
+	background: url('images/pink-dress-heading-1.png');
 }
 
-
+h1 {
+	background-color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding: 5px 0;
+	font-family: 'Gorditas', serif;
+}
+#subhead {
+	font-size: 0.75em;
+}
+#welcome {
+	font-family: 'Moo Lah Lah', serif;
+	font-size: 4em;
+	color: hotpink;
+}
 /* Grid Layout- Body Content for Sub-Pages*/
 .outfit-specs {
 	display: grid;
