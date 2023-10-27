@@ -86,16 +86,7 @@ ul {
 }
 /* Grid Layout- Homepage*/
 
-/*#closet-graphic {
-	
-}
-*/
 
-.About-Message{
-	font-family: 'Calistoga', serif;
-	margin-left: 250px;
-	margin-right: 500px;
-}
 div.closet-graphic {
 	position: relative;
 }
@@ -130,14 +121,19 @@ div.closet-graphic {
 	top:145px;
 	left:52%;
 }
-/* .closet-graphic {
-	display: grid;
-	grid-template-columns: 1fr;
+
+.outfit:hover {
+	rotate:20deg;
+	transform:scale(1.1);
 }
-.outfit {
-	grid-row-start: 1;
-	grid-column-start: 1;
-}*/
+
+/* Homepage- text content styling*/
+.About-Message{
+	font-family: 'Calistoga', serif;
+	margin-left: 400px;
+	margin-right: 400px;
+	font-size:2em;
+}
 
 /* SUB PAGES */
 
@@ -172,6 +168,10 @@ h1 {
 	font-size: 0.75em;
 }
 
+/*Images on sub-Pages*/
+img.subpage-graphic {
+	max-width:1000px;
+}
 
 
 /* Grid Layout- for Sub-Pages*/
