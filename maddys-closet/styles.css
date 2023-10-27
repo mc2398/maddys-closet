@@ -31,7 +31,7 @@ ul {
 .homepage {
 	display: grid;
 	grid-template-columns: 20px 1fr 20px;
-	grid-template-rows: 1fr 500px 200px;
+	grid-template-rows: 1fr 300px 200px;
 	gap: 20px;
 }
 .Navigation-Menu {
