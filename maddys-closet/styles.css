@@ -28,6 +28,23 @@ ul {
 	font-size: 4em;
 	color: hotpink;
 }
+.homepage {
+	display: grid;
+	grid-template-columns: 300px 1fr;
+	grid-template-rows: 1fr 200px;
+	gap: 20px;
+}
+.Navigation-Menu {
+	grid-column-start:1;
+}
+.closet-graphic {
+	grid-column-start:2;
+	background-color: pink;
+}
+#homepage-footer {
+	grid-column-start:2;
+	grid-row-start:2;
+}
 
 /* Homepage Nav Bar Styling */
 #menu-title {
@@ -59,8 +76,8 @@ ul {
 
 .About-Message{
 	font-family: 'Calistoga', serif;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 250px;
+	margin-right: 500px;
 }
 
 
