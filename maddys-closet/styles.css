@@ -74,13 +74,49 @@ ul {
 }
 /* Grid Layout- Homepage*/
 
+/*#closet-graphic {
+	
+}
+*/
 .About-Message{
 	font-family: 'Calistoga', serif;
 	margin-left: 250px;
 	margin-right: 500px;
 }
+div.closet-graphic {
+	position: relative;
+}
 
-
+#pd-closet-graphic {
+	width:300px;
+	position: absolute;
+	top:200px;
+	left:33%;
+}
+#gt-closet-graphic {
+	width:150px;
+	position: absolute;
+	top:200px;
+	left:39%;
+}
+#bt-closet-graphic {
+	width:300px;
+	position: absolute;
+	top:150px;
+	left:40%;
+}
+#ps-closet-graphic {
+	width:300px;
+	position: absolute;
+	top:150px;
+	left:43%;
+}
+#ds-closet-graphic {
+	width:200px;
+	position: absolute;
+	top:200px;
+	left:52%;
+}
 /* .closet-graphic {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -140,8 +176,7 @@ h1 {
 li {
 	padding: 5px;
 }
-
-img {
+img li {
 	max-width: 300px;
 }
 
