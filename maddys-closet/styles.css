@@ -86,7 +86,14 @@ ul {
 div.closet-graphic {
 	position: relative;
 }
-
+div.hanger {
+	width:100px;
+	position:relative;
+}
+#pd-hanger {
+	top:199px;
+	left:33%;
+}
 #pd-closet-graphic {
 	width:300px;
 	position: absolute;
