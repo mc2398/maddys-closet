@@ -30,12 +30,19 @@ ul {
 }
 .homepage {
 	display: grid;
-	grid-template-columns: 300px 1fr;
-	grid-template-rows: 1fr 200px;
+	grid-template-columns: 20px 1fr 20px;
+	grid-template-rows: 1fr 500px 200px;
 	gap: 20px;
 }
 .Navigation-Menu {
-	grid-column-start:1;
+	grid-column-start:2;
+	grid-row-start:2;
+	display:inline;
+	text-align:center;
+}
+.menu {
+	display:inline;
+	font-size:1.75em;
 }
 .closet-graphic {
 	grid-column-start:2;
@@ -43,7 +50,7 @@ ul {
 }
 #homepage-footer {
 	grid-column-start:2;
-	grid-row-start:2;
+	grid-row-start:3;
 }
 
 /* Homepage Nav Bar Styling */
@@ -55,22 +62,27 @@ ul {
 #menu-1 {
 	color:#FD0073;
 	text-decoration: none;
+	padding-right: 50px;
 }
 #menu-2 {
 	color:#025939;
 	text-decoration: none;
+	padding-right: 50px;
 }
 #menu-3 {
 	color:#171117;
 	text-decoration: none;
+	padding-right: 50px;
 }
 #menu-4 {
 	color:#EB6142;
 	text-decoration: none;
+	padding-right: 50px;
 }
 #menu-5 {
 	color:#9F9E9A;
 	text-decoration: none;
+	padding-right: 50px;
 }
 /* Grid Layout- Homepage*/
 
@@ -78,6 +90,7 @@ ul {
 	
 }
 */
+
 .About-Message{
 	font-family: 'Calistoga', serif;
 	margin-left: 250px;
@@ -86,42 +99,35 @@ ul {
 div.closet-graphic {
 	position: relative;
 }
-div.hanger {
-	width:100px;
-	position:relative;
-}
-#pd-hanger {
-	top:199px;
-	left:33%;
-}
+
 #pd-closet-graphic {
 	width:300px;
 	position: absolute;
-	top:200px;
-	left:33%;
+	top:165px;
+	left:32%;
 }
 #gt-closet-graphic {
 	width:150px;
 	position: absolute;
-	top:200px;
+	top:165px;
 	left:39%;
 }
 #bt-closet-graphic {
 	width:300px;
 	position: absolute;
-	top:150px;
+	top:165px;
 	left:40%;
 }
 #ps-closet-graphic {
 	width:300px;
 	position: absolute;
-	top:150px;
-	left:43%;
+	top:102px;
+	left:44%;
 }
 #ds-closet-graphic {
 	width:200px;
 	position: absolute;
-	top:200px;
+	top:145px;
 	left:52%;
 }
 /* .closet-graphic {
