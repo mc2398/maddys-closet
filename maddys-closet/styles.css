@@ -23,6 +23,9 @@ ul {
 /* HOMEPAGE */
 
 /* header for the Homepage*/
+.homepage-head-background {
+	background: url('images/homepage-header-1.svg');
+}
 #welcome {
 	font-family: 'Moo Lah Lah', serif;
 	font-size: 4em;
