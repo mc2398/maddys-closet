@@ -1,6 +1,6 @@
 function yassify() {
 document.getElementById("welcome").style.color =
-"#FD0073";
+"#F51387";
 }
 function makeBoring() {
     document.getElementById("welcome").style.color = "black";
