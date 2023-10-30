@@ -207,6 +207,16 @@ img li {
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
 	}
+#bt-body-text {
+	color:black;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
+}	
+#ps-body-text {
+	color:#EB6142;
+	font-family: 'Calistoga', serif;
+	font-size: 1.5em;
+}	
 #ds-body-text {
 	color: silver;
 	font-family: 'Calistoga', serif;
