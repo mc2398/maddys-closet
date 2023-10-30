@@ -44,7 +44,7 @@ ul {
 	text-align:center;
 }
 .menu {
-	display:inline;
+	display:inline-block;
 	font-size:1.75em;
 }
 .closet-graphic {
