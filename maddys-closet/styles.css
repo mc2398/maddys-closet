@@ -18,6 +18,7 @@ nav {
 ul {
 	list-style-type: none;
 	text-align: left;
+	padding-left:0;
 	}
 
 /* HOMEPAGE */
@@ -182,12 +183,19 @@ img.subpage-graphic {
 	display: grid;
 	grid-template-columns: 100px 1fr 2fr 100px;
 	grid-auto-rows: repeat(4, 1fr)
+	column-gap: 50px;
 }
 .subtitle {
 	grid-column-start: 2;
 }
 .content {
 	grid-column-start: 3;
+	padding-left: 50px;
+	text-align:left;
+	padding-top: 20px;
+}
+.subtitle {
+	font-size:1.5em;
 }
 li {
 	padding: 5px;
@@ -231,6 +239,7 @@ button {
 	font-size: 1.5em;
 	border-radius: 10px;
 	font-family: 'Gorditas', serif;
+	margin-top: 20px;
 }
 
 button a {
