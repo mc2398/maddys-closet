@@ -29,7 +29,7 @@ ul {
 }
 #welcome {
 	font-family: 'Moo Lah Lah', serif;
-	font-size: 4em;
+	font-size: 6em;
 	color: black;
 }
 .homepage {
@@ -38,7 +38,7 @@ ul {
 	grid-template-rows: 1fr 300px 200px;
 	gap: 20px;
 }
-.Navigation-Menu {
+#navigation-menu {
 	grid-column-start:2;
 	grid-row-start:2;
 	display:inline-block;
@@ -87,6 +87,10 @@ ul {
 	color:#9F9E9A;
 	text-decoration: none;
 	padding-right: 50px;
+}
+
+li.menu {
+	text-align:center;
 }
 /* Grid Layout- Homepage*/
 
