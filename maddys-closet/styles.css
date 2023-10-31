@@ -117,13 +117,13 @@ div.closet-graphic {
 	width:300px;
 	position: absolute;
 	top:102px;
-	left:44%;
+	left:47%;
 }
 #ds-closet-graphic {
 	width:200px;
 	position: absolute;
 	top:145px;
-	left:52%;
+	left:55%;
 }
 
 .outfit:hover {
@@ -230,7 +230,9 @@ img li {
 	font-family: 'Calistoga', serif;
 	font-size: 1.5em;
 }
-
+.ll-title {
+	font-size:1.4em;
+}
 /* Navigation (Buttons) for Sub-Pages*/
 button {
 	color: white;
